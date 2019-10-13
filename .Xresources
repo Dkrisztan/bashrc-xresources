@@ -1,0 +1,26 @@
+xterm*font:     *-fixed-*-*-*-20-*
+xterm*geometry:96x33
+xterm*termName: xterm-256color
+xterm*background: rgb:00/00/00
+xterm*foreground: rgb:ff/ff/ff
+*foreground:   #ffffff
+*background:   #000000
+xterm*cursorColor:  #ffffff
+xterm*color0:       #119922
+xterm*color8:       #4d4d4d
+xterm*color1:       #bd17cf
+xterm*color9:       #3e0605
+xterm*color2:       #06989a
+xterm*color10:      #23fd00
+xterm*color3:       #cecb00
+xterm*color11:      #fffd00
+xterm*color4:       #ea1926
+xterm*color12:      #06989a
+xterm*color5:       #689d9a
+xterm*color13:      #fd28ff
+xterm*color6:       #0dcdcd
+xterm*color14:      #14ffff
+xterm*color7:       #e5e5e5
+xterm*color15:      #ffffff
+
+
