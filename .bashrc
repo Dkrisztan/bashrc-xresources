@@ -113,20 +113,7 @@ fi
 
 
 
-if [ "$color_prompt" = yes ]; then
-
-    #PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-    export PS1="\[\][\[\]\u\[\]@\[\]\h\[:\] \W\[\]]\[\]\\$ \[\]"
-
-else
-
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-
-fi
-
-unset color_prompt force_color_prompt
-
-
+export PS1="\e[0;91;1m\[[\e[m\e[0;33;1m\u\e[m\e[0;32;1m@\e[m\e[0;34;1m\h\e[m \e[0;35;1m\W\e[m\e[0;91;1m\]]\e[m $ "
 
 # If this is an xterm set the title to user@host:dir
 
